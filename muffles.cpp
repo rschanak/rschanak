@@ -88,12 +88,11 @@ return lowestMonth;
 
 int main()
 {
+getData(rain);
 int smallestRain=getSmallest(rain);
 int largestRain=getLargest(rain);
  
-cout << smallestRain;
- 
-getData(rain);
+
 cout<<"=== 2015 Rain Report for Phoenix AZ ==="<<endl<<endl;
 cout<<setprecision(2)<<fixed<<"Total rainfall: "<<getTotal(rain)<<" inches."<<endl;
 cout<<setprecision(2)<<fixed<<"Average monthly rainfall: "<<getAverage(rain)<<" inches."<<endl;
